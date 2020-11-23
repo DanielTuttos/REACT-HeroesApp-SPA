@@ -15,7 +15,7 @@ export const Navbar = () => {
         history.replace('/login');
     }
     return (
-        <nav className="navbar navbar-expand-sm navbar-dark bg-primary">
+        <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
 
             <Link
                 className="navbar-brand"
