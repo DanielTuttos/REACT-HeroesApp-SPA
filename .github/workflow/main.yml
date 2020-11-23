@@ -3,6 +3,7 @@ on:
   push:
     paths-ignore:
     - ".github/**"
+    branches: [ dev ]
 jobs:
   build:
     runs-on: ubuntu-latest
